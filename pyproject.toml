@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sothstan"
+version = "0.1.0rc1"
+description = "The Trial of the Hidden Voice (Sothstan) | Statistical audits for LLM API endpoints"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "sothstan contributors" }]
+keywords = ["llm", "api", "fingerprint", "verification", "chinese", "relay", "模型验真"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+sothstan = "sothstan.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice"
+Repository = "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice"
+Issues = "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/issues"
+Changelog = "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/blob/main/CHANGELOG.md"
+Security = "https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/security/policy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sothstan = ["baselines/*.json", "py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

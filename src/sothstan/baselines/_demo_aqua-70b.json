@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "model_id": "aqua-70b",
+  "family": "aqua",
+  "tags": [
+    "demo"
+  ],
+  "collected_at": "2026-09-28T13:34:11+00:00",
+  "collector": "sothstan 0.1.0rc1",
+  "endpoint_hint": "",
+  "honesty_note": "内置 mock 人格的指纹，仅用于离线测试与 selftest，不代表任何真实模型。",
+  "signals": {
+    "errors.empty_messages": {
+      "kind": "categorical",
+      "value": "400|invalid_parameter__messages_must",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "errors.invalid_role": {
+      "kind": "categorical",
+      "value": "400|invalid_parameter__invalid_role",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "errors.temperature_out_of_range": {
+      "kind": "categorical",
+      "value": "400|invalid_parameter__temperature_m",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "errors.unknown_param": {
+      "kind": "categorical",
+      "value": "400|invalid_parameter__unknown_param",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "limits.logprobs_support": {
+      "kind": "bool",
+      "value": true,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "limits.max_tokens_huge": {
+      "kind": "categorical",
+      "value": "accepted",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "limits.model_field_echo": {
+      "kind": "categorical",
+      "value": "aqua-70b",
+      "weight": 0.0,
+      "meta": {}
+    },
+    "limits.n_param_support": {
+      "kind": "bool",
+      "value": true,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "reasoning.completion_per_char": {
+      "kind": "int",
+      "value": 493,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "reasoning.completion_tokens": {
+      "kind": "int",
+      "value": 39,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "reasoning.reasoning_field": {
+      "kind": "bool",
+      "value": false,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "reasoning.style_marker": {
+      "kind": "categorical",
+      "value": "steps_with_final",
+      "weight": 1.0,
+      "meta": {}
+    },
+    "template.empty_user_total": {
+      "kind": "int",
+      "value": 4,
+      "weight": 1.5,
+      "meta": {}
+    },
+    "template.pair_growth": {
+      "kind": "int",
+      "value": 48,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "template.system_overhead": {
+      "kind": "int",
+      "value": 17,
+      "weight": 1.0,
+      "meta": {}
+    },
+    "token_count.completion_int": {
+      "kind": "int",
+      "value": 7,
+      "weight": 1.0,
+      "meta": {
+        "finish_reason": "stop"
+      }
+    },
+    "token_count.prompt_curve": {
+      "kind": "int_vector",
+      "value": [
+        11,
+        17,
+        41,
+        48,
+        103,
+        91,
+        28,
+        31,
+        26,
+        22,
+        33,
+        33,
+        32,
+        9,
+        23,
+        34,
+        33,
+        27,
+        41,
+        43
+      ],
+      "weight": 2.0,
+      "meta": {
+        "canon_ids": [
+          "zh_short_1",
+          "zh_short_2",
+          "zh_mid_1",
+          "zh_mid_2",
+          "zh_long_1",
+          "zh_long_2",
+          "mix_zh_en_1",
+          "mix_zh_en_2",
+          "numbers_1",
+          "numbers_2",
+          "fullwidth_1",
+          "fullwidth_2",
+          "emoji_1",
+          "emoji_2",
+          "rare_cjk_1",
+          "rare_cjk_2",
+          "code_1",
+          "code_2",
+          "repeat_1",
+          "mixed_all"
+        ],
+        "mode": "canon"
+      }
+    }
+  }
+}

@@ -1,0 +1,497 @@
+[
+  {
+    "strategy": "honest_aqua（对照）",
+    "rival_set": "default",
+    "seed": 20260928,
+    "label": "AUTHENTIC",
+    "runner_up": "breeze-8b",
+    "margin": 230.1,
+    "claimed_total": 0.0,
+    "catching_layers": [],
+    "note": "诚实服务器，期望全 seed AUTHENTIC（验收标准②）"
+  },
+  {
+    "strategy": "honest_aqua（对照）",
+    "rival_set": "default",
+    "seed": 1,
+    "label": "AUTHENTIC",
+    "runner_up": "breeze-8b",
+    "margin": 230.1,
+    "claimed_total": 0.0,
+    "catching_layers": [],
+    "note": "诚实服务器，期望全 seed AUTHENTIC（验收标准②）"
+  },
+  {
+    "strategy": "honest_aqua（对照）",
+    "rival_set": "default",
+    "seed": 2,
+    "label": "AUTHENTIC",
+    "runner_up": "breeze-8b",
+    "margin": 230.1,
+    "claimed_total": 0.0,
+    "catching_layers": [],
+    "note": "诚实服务器，期望全 seed AUTHENTIC（验收标准②）"
+  },
+  {
+    "strategy": "honest_aqua（对照）",
+    "rival_set": "default",
+    "seed": 3,
+    "label": "AUTHENTIC",
+    "runner_up": "breeze-8b",
+    "margin": 230.1,
+    "claimed_total": 0.0,
+    "catching_layers": [],
+    "note": "诚实服务器，期望全 seed AUTHENTIC（验收标准②）"
+  },
+  {
+    "strategy": "honest_aqua（对照）",
+    "rival_set": "default",
+    "seed": 4,
+    "label": "AUTHENTIC",
+    "runner_up": "breeze-8b",
+    "margin": 230.1,
+    "claimed_total": 0.0,
+    "catching_layers": [],
+    "note": "诚实服务器，期望全 seed AUTHENTIC（验收标准②）"
+  },
+  {
+    "strategy": "relay_field_only",
+    "rival_set": "default",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": -229.8,
+    "claimed_total": -229.8,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "换模型 + 只改 model 字段（最常见的中转偷工）"
+  },
+  {
+    "strategy": "relay_field_only",
+    "rival_set": "default",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": -229.8,
+    "claimed_total": -229.8,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "换模型 + 只改 model 字段（最常见的中转偷工）"
+  },
+  {
+    "strategy": "relay_field_only",
+    "rival_set": "default",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": -229.8,
+    "claimed_total": -229.8,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "换模型 + 只改 model 字段（最常见的中转偷工）"
+  },
+  {
+    "strategy": "relay_field_only",
+    "rival_set": "default",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": -229.8,
+    "claimed_total": -229.8,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "换模型 + 只改 model 字段（最常见的中转偷工）"
+  },
+  {
+    "strategy": "relay_field_only",
+    "rival_set": "default",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": -229.8,
+    "claimed_total": -229.8,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "换模型 + 只改 model 字段（最常见的中转偷工）"
+  },
+  {
+    "strategy": "relay_liar_usage",
+    "rival_set": "default",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 156.1,
+    "claimed_total": -40.0,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning"
+    ],
+    "note": "换模型 + 改字段 + 用声称模型重算 usage（错误/行为层仍真实）"
+  },
+  {
+    "strategy": "relay_liar_usage",
+    "rival_set": "default",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 156.1,
+    "claimed_total": -40.0,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning"
+    ],
+    "note": "换模型 + 改字段 + 用声称模型重算 usage（错误/行为层仍真实）"
+  },
+  {
+    "strategy": "relay_liar_usage",
+    "rival_set": "default",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 156.1,
+    "claimed_total": -40.0,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning"
+    ],
+    "note": "换模型 + 改字段 + 用声称模型重算 usage（错误/行为层仍真实）"
+  },
+  {
+    "strategy": "relay_liar_usage",
+    "rival_set": "default",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 156.1,
+    "claimed_total": -40.0,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning"
+    ],
+    "note": "换模型 + 改字段 + 用声称模型重算 usage（错误/行为层仍真实）"
+  },
+  {
+    "strategy": "relay_liar_usage",
+    "rival_set": "default",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 156.1,
+    "claimed_total": -40.0,
+    "catching_layers": [
+      "errors",
+      "limits",
+      "reasoning"
+    ],
+    "note": "换模型 + 改字段 + 用声称模型重算 usage（错误/行为层仍真实）"
+  },
+  {
+    "strategy": "relay_liar_full_naive",
+    "rival_set": "default",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 214.1,
+    "claimed_total": -11.0,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套信封伪造，但 usage 沿用声称模型标准回复的 token 数（与内容不自洽）"
+  },
+  {
+    "strategy": "relay_liar_full_naive",
+    "rival_set": "default",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 214.1,
+    "claimed_total": -11.0,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套信封伪造，但 usage 沿用声称模型标准回复的 token 数（与内容不自洽）"
+  },
+  {
+    "strategy": "relay_liar_full_naive",
+    "rival_set": "default",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 214.1,
+    "claimed_total": -11.0,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套信封伪造，但 usage 沿用声称模型标准回复的 token 数（与内容不自洽）"
+  },
+  {
+    "strategy": "relay_liar_full_naive",
+    "rival_set": "default",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 214.1,
+    "claimed_total": -11.0,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套信封伪造，但 usage 沿用声称模型标准回复的 token 数（与内容不自洽）"
+  },
+  {
+    "strategy": "relay_liar_full_naive",
+    "rival_set": "default",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 214.1,
+    "claimed_total": -11.0,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套信封伪造，但 usage 沿用声称模型标准回复的 token 数（与内容不自洽）"
+  },
+  {
+    "strategy": "relay_liar_full_consistent",
+    "rival_set": "default",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 196.3,
+    "claimed_total": -16.8,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套伪造 + 对真实内容重算 usage——黑盒确定性信号全部通过，只剩内容行为层"
+  },
+  {
+    "strategy": "relay_liar_full_consistent",
+    "rival_set": "default",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 196.3,
+    "claimed_total": -16.8,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套伪造 + 对真实内容重算 usage——黑盒确定性信号全部通过，只剩内容行为层"
+  },
+  {
+    "strategy": "relay_liar_full_consistent",
+    "rival_set": "default",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 196.3,
+    "claimed_total": -16.8,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套伪造 + 对真实内容重算 usage——黑盒确定性信号全部通过，只剩内容行为层"
+  },
+  {
+    "strategy": "relay_liar_full_consistent",
+    "rival_set": "default",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 196.3,
+    "claimed_total": -16.8,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套伪造 + 对真实内容重算 usage——黑盒确定性信号全部通过，只剩内容行为层"
+  },
+  {
+    "strategy": "relay_liar_full_consistent",
+    "rival_set": "default",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 196.3,
+    "claimed_total": -16.8,
+    "catching_layers": [
+      "reasoning"
+    ],
+    "note": "全套伪造 + 对真实内容重算 usage——黑盒确定性信号全部通过，只剩内容行为层"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "with_sibling",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "aqua-lite",
+    "margin": -109.0,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "without_sibling",
+    "seed": 20260928,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 81.2,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "with_sibling",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "aqua-lite",
+    "margin": -109.0,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "without_sibling",
+    "seed": 1,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 81.2,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "with_sibling",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "aqua-lite",
+    "margin": -109.0,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "without_sibling",
+    "seed": 2,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 81.2,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "with_sibling",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "aqua-lite",
+    "margin": -109.0,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "without_sibling",
+    "seed": 3,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 81.2,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "with_sibling",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "aqua-lite",
+    "margin": -109.0,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  },
+  {
+    "strategy": "sibling_swap_近亲互换",
+    "rival_set": "without_sibling",
+    "seed": 4,
+    "label": "MISMATCH",
+    "runner_up": "breeze-8b",
+    "margin": 81.2,
+    "claimed_total": -109.0,
+    "catching_layers": [
+      "reasoning",
+      "template",
+      "token_count"
+    ],
+    "note": "同家族近亲（仅 token 比率/模板开销 ~6% 偏移）诚实转发冒充旗舰"
+  }
+]
