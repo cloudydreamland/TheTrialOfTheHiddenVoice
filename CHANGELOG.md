@@ -1,5 +1,11 @@
 # CHANGELOG — sothstan
 
+## 0.1.0 (2026-10-05)
+
+首个稳定版，功能与 0.1.0rc1 一致：探测框架（5 探测器，tier 分级）、混淆集似然比
+判决、基线注册表、mock 双人格服务器、CLI（check/collect/list-baselines/selftest）。
+README 安装说明更新为 PyPI 安装优先。
+
 ## 0.1.0rc1 (2026-09-28)
 
 - 首个可用版本：探测框架（5 探测器，tier 分级）、混淆集似然比判决

@@ -7,10 +7,10 @@
 **中文优先的 LLM API 模型验真库。一个端点声称自己在服务模型 X——它真的在服务 X 吗？**
 用多层指纹 + 混淆集似然比给出统计判决，证据链哈希锁定，可复现、可审计。
 
-[![CI](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
+[![PyPI](https://img.shields.io/pypi/v/sothstan)](https://pypi.org/project/sothstan/)
+[![Python](https://img.shields.io/pypi/pyversions/sothstan)](https://pypi.org/project/sothstan/)
+[![CI](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
 ## 为什么需要它 / Why
 
 第三方中转、代理或聚合 API 往往会返回一个自报模型名。仅凭这个字段无法验证端点的实际行为是否与所声明模型一致；差异也可能来自版本变化、采样参数、服务策略或网络错误。Sothstan 用可信基线比较多种行为信号，并保留统计结果和不确定性。

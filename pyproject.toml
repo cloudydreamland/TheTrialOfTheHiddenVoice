@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sothstan"
-version = "0.1.0rc1"
+version = "0.1.0"
 description = "The Trial of the Hidden Voice (Sothstan) | Statistical audits for LLM API endpoints"
 readme = "README.md"
 requires-python = ">=3.10"

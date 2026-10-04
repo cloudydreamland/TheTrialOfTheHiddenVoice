@@ -4,10 +4,10 @@
 
 **Sothstan** helps you audit whether an OpenAI-compatible API behaves like the model its endpoint claims to serve. It compares observed signals against trusted baselines and reports statistical evidence with a reproducible record.
 
+[![PyPI](https://img.shields.io/pypi/v/sothstan)](https://pypi.org/project/sothstan/)
+[![Python](https://img.shields.io/pypi/pyversions/sothstan)](https://pypi.org/project/sothstan/)
 [![CI](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
-[![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ## Try the offline demo
 
 ```bash
