@@ -17,13 +17,16 @@
 
 ## 安装 / Install
 
-> 当前尚未发布到 PyPI；下方给出从 GitHub 获取并本地安装的命令。
+```bash
+python -m pip install sothstan
+```
+
+从源码安装（开发或最新版）：
 
 ```bash
 git clone https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice.git
 cd TheTrialOfTheHiddenVoice
 python -m pip install .
-# PyPI 首发后：python -m pip install sothstan
 ```
 
 ## 快速开始 / Quickstart
