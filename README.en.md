@@ -8,6 +8,8 @@
 [![Python](https://img.shields.io/pypi/pyversions/sothstan)](https://pypi.org/project/sothstan/)
 [![CI](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+![sothstan demo: offline selftest of the verification pipeline (real output)](docs/assets/demo.svg)
 ## Try the offline demo
 
 ```bash

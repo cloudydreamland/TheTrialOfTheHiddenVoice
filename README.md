@@ -11,6 +11,8 @@
 [![Python](https://img.shields.io/pypi/pyversions/sothstan)](https://pypi.org/project/sothstan/)
 [![CI](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml/badge.svg)](https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+![sothstan 演示：离线 selftest 全链路验真（真实运行输出）](docs/assets/demo.svg)
 ## 为什么需要它 / Why
 
 第三方中转、代理或聚合 API 往往会返回一个自报模型名。仅凭这个字段无法验证端点的实际行为是否与所声明模型一致；差异也可能来自版本变化、采样参数、服务策略或网络错误。Sothstan 用可信基线比较多种行为信号，并保留统计结果和不确定性。
