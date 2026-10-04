@@ -10,13 +10,16 @@
 
 ## Try the offline demo
 
-> This package is not on PyPI yet. Clone the repository and install it locally before running the demo.
+```bash
+python -m pip install sothstan
+```
+
+Or install from source (latest development version):
 
 ```bash
 git clone https://github.com/cloudydreamland/TheTrialOfTheHiddenVoice.git
 cd TheTrialOfTheHiddenVoice
 python -m pip install .
-sothstan selftest
 ```
 
 The self-test uses local mock endpoints. It demonstrates matching behavior, model substitution, a spoofed model-name field, and misleading usage data without sending requests to a real provider.
